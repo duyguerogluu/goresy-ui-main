@@ -1,0 +1,28 @@
+.check-badge {
+    border-radius: 2px;
+    padding: 0.25em 0.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: .3px;
+}
+
+.check-badge.status-open {
+    background: #c8dae6;
+    color: #254360;
+}
+
+.check-badge.status-closed {
+    background: #c7c7c7;
+    color: #5e5d5d;
+}
+
+.check-badge.status-attended {
+    background: #c8e6c9;
+    color: #256029;
+}
+
+.check-badge.status-did_not_attend {
+    background: #ffcdd2;
+    color: #c63737;
+}

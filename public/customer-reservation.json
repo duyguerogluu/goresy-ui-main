@@ -1,0 +1,29 @@
+
+{
+    "data": [
+        {
+            "id": 1000,
+            "name": "James Butt",
+            "service": "Saç Bakım",
+            "reservationDate": "09/13/2015",
+            "creationDate": "09/13/2015",
+            "status": "Onaylandı",
+            "verified": "Geldi",
+            "by": "Müşteri",
+            "clock": "13:00"
+        },
+        {
+            "id": 1001,
+            "name": "James Butt",
+            "service": "Tırnak",
+            "reservationDate": "09/13/201",
+            "creationDate": "09/13/2015",
+            "status": "Onay Bekliyor",
+            "verified": "Geldi",
+            "by": "Deniz",
+            "clock": "13:50"
+        }
+    
+    ]
+}
+     

@@ -1,0 +1,49 @@
+{
+    "data": [
+        {
+            "status": "Açık",
+            "customer": "Edeviye Uslu",
+            "services": "Saç Boyama",
+            "products": "",
+            "date": "22 Ocak 2022",
+            "time": "11.45",
+            "createdBy": "Müşteri",
+            "arrived": "Geldi",
+            "score": 5,
+            "totalAmount": "90 TL",
+            "amountPaid": "0 TL",
+            "paymentMethod": "",
+            "remainingPayment": "90 TL"
+        },
+        {
+            "status": "Kapalı",
+            "customer": "Süheyla Durbaş",
+            "services": "Kaş Bıyık",
+            "products": "",
+            "date": "22 Ocak 2022",
+            "time": "14.20",
+            "createdBy": "Müşteri",
+            "arrived": "Geldi",
+            "score": 4,
+            "totalAmount": "120 TL",
+            "amountPaid": "120 TL",
+            "paymentMethod": "Nakit",
+            "remainingPayment": "0 TL"
+        },
+        {
+            "status": "Kapalı",
+            "customer": "Aysel Güven",
+            "services": "Sir Ağda",
+            "products": "",
+            "date": "22 Ocak 2022",
+            "time": "16.45",
+            "createdBy": "Müşteri",
+            "arrived": "Geldi",
+            "score": 4,
+            "totalAmount": "75 TL",
+            "amountPaid": "75 TL",
+            "paymentMethod": "Kart",
+            "remainingPayment": "0 TL"
+        }
+    ]
+}

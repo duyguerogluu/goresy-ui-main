@@ -1,0 +1,33 @@
+
+{
+    "data": [
+        {
+            "id": 1000,
+            "service": "Saç Bakım",
+            "clientName": "James Butt",
+            "quantity": "2",
+            "totalUsage": "2",
+            "remainingUsage": "0",
+            "totalAmount": "50 TL",
+            "paidAmount": "50 TL",
+            "unpaidAmount": "50 TL",
+            "sellerName": "Ada",
+            "saleDate": "09/13/2015"
+        },
+        {
+            "id": 1001,
+            "service": "Keratin",
+            "clientName": "Deniz Ayşe",
+            "quantity": "3",
+            "totalUsage": "2",
+            "remainingUsage": "1",
+            "totalAmount": "100 TL",
+            "paidAmount": "75 TL",
+            "unpaidAmount": "25 TL",
+            "sellerName": "Ada",
+            "saleDate": "09/13/2015"
+        }
+    
+    ]
+}
+     

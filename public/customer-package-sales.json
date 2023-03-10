@@ -1,0 +1,29 @@
+
+{
+    "data": [
+        {
+            "id": 1000,
+            "service": "Saç Bakım",
+            "quantity": "3",
+            "totalUsage": "2",
+            "remainingUsage": "1",
+            "totalAmount": "100 TL",
+            "paidAmount": "50 TL",
+            "unpaidAmount": "50 TL",
+            "saleDate": "09/13/2015"
+        },
+        {
+            "id": 1000,
+            "service": "Saç Bakım",
+            "quantity": "2",
+            "totalUsage": "1",
+            "remainingUsage": "1",
+            "totalAmount": "75 TL",
+            "paidAmount": "25 TL",
+            "unpaidAmount": "50 TL",
+            "saleDate": "09/13/2015"
+        }
+    
+    ]
+}
+     

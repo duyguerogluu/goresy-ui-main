@@ -1,0 +1,18 @@
+{
+    "data": {
+        "partnerName": "Kuaför Nikoo",
+        "address": "Çamlıkule Mah. 220/21 Sokak No:112",
+        "email": "kuafornikoo@gmail.com",
+        "category": "Kuaförler",
+        "city": "İzmir",
+        "district": "Buca",
+        "customerGender": "Kadınlar",
+        "taxName": "Kuaför Niko",
+        "taxNumber": "11111",
+        "taxAdministration": "Buca",
+        "taxAddress": "-",
+        "vatRate": 0,
+        "agentAccessPermission": false,
+        "pastMonthData": true
+    }
+}

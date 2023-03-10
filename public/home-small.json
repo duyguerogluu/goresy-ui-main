@@ -1,0 +1,22 @@
+
+{
+    "data": [
+        {
+            "id": 1000,
+            "clientName": "Aysel Gürsel",
+            "product": "Şampuan",
+            "service": "Tırnak",
+            "creationDate": "09/13/2015",
+            "totalCost": "100 TL"
+        },
+        {
+            "id": 1001,
+            "clientName": "Deniz Güneş",
+            "product": "Krem",
+            "service": "Boyama",
+            "creationDate": "09/13/2015",
+            "totalCost": "100 TL"
+        }
+    ]
+}
+     

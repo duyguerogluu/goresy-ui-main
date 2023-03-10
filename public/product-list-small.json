@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "product": "Brocati protein suyu",
+            "stock": 12,
+            "price": 100,
+            "barcode": 8780801122007923
+
+        },
+        {
+            "product": "Keune Derma activate şampuan",
+            "stock": 1,
+            "price": 50,
+            "barcode": 7780456722007923
+            
+        },
+        {
+            "product": "Tuzsuz Şampuan Sandra",
+            "stock": 3,
+            "price": 150,
+            "barcode": 9780801122007923
+            
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "data": [
+        {
+            "count": 5,
+            "type": "Seans",
+            "service": "Maşa",
+            "price": 100
+        },
+        {
+            "count": 1,
+            "type": "Dakika",
+            "service": "Fön",
+            "price": 100
+        }
+    ]
+}

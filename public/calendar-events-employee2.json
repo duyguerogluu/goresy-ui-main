@@ -1,0 +1,13 @@
+{
+    "data": [
+        {
+            "employee": "Meryem",
+            "customer": "Bette Nicka",
+            "service": "Saç Kesimi",
+            "title": "Saç Kesimi (Meryem) - Bette Nicka",
+            "start": "Thurs May 5 2022 12:00:00 GMT+0300 (GMT+03:00)",
+            "end": "Thurs May 5 2022 13:00:00 GMT+0300 (GMT+03:00)",
+            "allDay": false           
+        }
+    ]
+}

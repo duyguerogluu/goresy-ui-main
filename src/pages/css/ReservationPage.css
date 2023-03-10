@@ -1,0 +1,38 @@
+.appointment-badge {
+    border-radius: 2px;
+    padding: 0.25em 0.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: .3px;
+}
+
+.appointment-badge.status-waiting_for_approval {
+    background: #feedaf;
+    color: #8a5340;
+}
+
+.appointment-badge.status-approved {
+    background: #c8e6c9;
+    color: #256029;
+}
+
+.appointment-badge.status-on_progress {
+    background: #c8dae6;
+    color: #254360;
+}
+
+.appointment-badge.status-completed {
+    background: #c7c7c7;
+    color: #5e5d5d;
+}
+
+.appointment-badge.status-denied {
+    background: #ffcdd2;
+    color: #c63737;
+}
+
+.appointment-badge.status-canceled {
+    background: #ffcdd2;
+    color: #c63737;
+}

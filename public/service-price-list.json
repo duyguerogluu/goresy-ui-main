@@ -1,0 +1,19 @@
+{
+    "data": [
+        {
+            "service": "Saç Kesimi",          
+            "service_gender": "Kadınlar",
+            "service_price": 200
+        },
+        {
+            "service": "Fön",
+            "service_gender": "Kadınlar",
+            "service_price": 70
+        },
+        {
+            "service": "Maşa",
+            "service_gender": "Kadınlar",
+            "service_price": 100
+        }
+    ]
+}

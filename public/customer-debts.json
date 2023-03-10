@@ -1,0 +1,21 @@
+
+{
+    "data": [
+        {
+            "id": 1000,
+            "type": "Nakit",
+            "serviceDate": "09/13/2015",
+            "amount": "2.000 TL",
+            "creationDate": "09/13/2015"
+        },
+        {
+            "id": 1000,
+            "type": "Nakit",
+            "serviceDate": "09/13/2015",
+            "amount": "1.000 TL",
+            "creationDate": "09/13/2015"
+        }
+    
+    ]
+}
+     

@@ -1,0 +1,43 @@
+{
+    "data": [
+        {
+            "name": "Saç Kesimi",
+            "employees": [
+                {"label": "Haktan", "value": "haktan"},
+                {"label": "Elif", "value": "elif"},
+                {"label": "Niko", "value": "niko"},
+                {"label": "Meryem", "value": "meryem"}
+
+            ],
+            "selectedEmployees":  ["haktan", "elif", "niko"],
+            "category": "saç",
+            "duration": 10
+        },
+        {
+            "name": "Fön",
+            "employees": [
+                {"label": "Haktan", "value": "haktan"},
+                {"label": "Elif", "value": "elif"},
+                {"label": "Niko", "value": "niko"},
+                {"label": "Meryem", "value": "meryem"}
+
+            ],
+            "selectedEmployees": ["meryem"],
+            "category": "saç",
+            "duration": 70
+        },
+        {
+            "name": "Maşa",
+            "employees": [
+                {"label": "Haktan", "value": "haktan"},
+                {"label": "Elif", "value": "elif"},
+                {"label": "Niko", "value": "niko"},
+                {"label": "Meryem", "value": "meryem"}
+
+            ],
+            "selectedEmployees": ["elif", "niko"],
+            "category": "saç",
+            "duration": 100
+        }
+    ]
+}

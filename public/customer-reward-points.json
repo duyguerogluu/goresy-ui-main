@@ -1,0 +1,21 @@
+
+{
+    "data": [
+        {
+            "id": 1000,
+            "type": "Yükleme",
+            "service": "Saç Bakım",
+            "cost": "50 TL",
+            "creationDate": "09/13/2015"
+        },
+        {
+            "id": 1000,
+            "type": "Yükleme",
+            "service": "Saç Bakım",
+            "cost": "100 TL",
+            "creationDate": "09/13/2015"
+        }
+    
+    ]
+}
+     

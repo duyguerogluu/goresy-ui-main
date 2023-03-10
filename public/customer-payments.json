@@ -1,0 +1,20 @@
+{
+    "data": [
+        {
+            "id": 1000,
+            "source": "Booking",
+            "paymentMethod": "Kredi Kartı",
+            "amount": "2.000 TL",
+            "creationDate": "09/13/2015"
+        },
+        {
+            "id": 1000,
+            "source": "Booking",
+            "paymentMethod": "Nakit",
+            "amount": "1.000 TL",
+            "creationDate": "09/13/2015"
+        }
+    
+    ]
+}
+     

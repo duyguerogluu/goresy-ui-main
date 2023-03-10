@@ -1,0 +1,21 @@
+
+{
+    "data": [
+        {
+            "id": 1000,
+            "product": "Şampuan",
+            "count": "1",
+            "cost": "50 TL",
+            "saleDate": "09/13/2015"
+        },
+        {
+            "id": 1000,
+            "product": "Krem",
+            "count": "2",
+            "cost": "100 TL",
+            "saleDate": "09/13/2015"
+        }
+    
+    ]
+}
+     

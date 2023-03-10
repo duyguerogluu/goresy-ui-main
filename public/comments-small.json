@@ -1,0 +1,27 @@
+
+{
+    "data": [
+        {
+            "id": 1000,
+            "clientName": "Aysel Gürsel",
+            "rating": "5",
+            "service": "Tırnak",
+            "creationDate": "09/13/2015",
+            "serviceDate": "09/13/2015",
+            "feedback": "Great!",
+            "reply": "Thank You"
+        },
+        {
+            "id": 1001,
+            "clientName": "Deniz Ayşe",
+            "rating": "5",
+            "service": "Saç Boyama",
+            "creationDate": "09/13/2015",
+            "serviceDate": "09/13/2015",
+            "feedback": "Awesome!",
+            "reply": "Thank You"
+        }
+    
+    ]
+}
+     

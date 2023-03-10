@@ -1,0 +1,6 @@
+{
+    "data": [
+        {"label": "Seans", "value": "SESSION"},
+        {"label": "Dakika", "value": "MINUTE"}
+    ]
+}

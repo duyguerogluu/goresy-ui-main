@@ -1,0 +1,25 @@
+
+{
+    "data": [
+        {
+            "id": 1001,
+            "clientName": "James Butt",
+            "product": "Şampuan",
+            "count": "1",
+            "cost": "50 TL",
+            "sellerName": "Ada Eren",
+            "saleDate": "09/13/2015"
+        },
+        {
+            "id": 1000,
+            "clientName": "Deniz Ayşe",
+            "product": "Krem",
+            "count": "2",
+            "cost": "100 TL",
+            "sellerName": "Adahan",
+            "saleDate": "09/13/2015"
+        }
+    
+    ]
+}
+     

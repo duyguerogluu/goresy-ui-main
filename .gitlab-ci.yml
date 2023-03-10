@@ -1,0 +1,55 @@
+image: docker:19.03.2
+
+services:
+  - docker:dind
+
+variables:
+  DOCKER_DRIVER: overlay
+
+stages:
+  - build
+  - deploy-to-dev
+  - deploy-to-prod
+
+docker-build:
+  stage: build
+  only:
+    - dev
+    - prod
+  script:
+    |
+      # First 4 steps allows us to cache internal docker layers
+      export DOCKER_BUILDKIT=1
+      internal_build_image_tag=$CI_COMMIT_REF_NAME-build
+      docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.gitlab.com
+      docker pull registry.gitlab.com/goresy-dev-team/goresy-ui:$internal_build_image_tag || true
+
+      docker build \
+            --build-arg BUILDKIT_INLINE_CACHE=1 \
+            --target build \
+            --cache-from registry.gitlab.com/goresy-dev-team/goresy-ui:$internal_build_image_tag \
+            -t registry.gitlab.com/goresy-dev-team/goresy-ui:$internal_build_image_tag .
+      docker build \
+            --build-arg BUILDKIT_INLINE_CACHE=1 \
+            --cache-from registry.gitlab.com/goresy-dev-team/goresy-ui:$internal_build_image_tag \
+            -t registry.gitlab.com/goresy-dev-team/goresy-ui:$CI_COMMIT_REF_NAME-$CI_COMMIT_SHORT_SHA .
+
+      docker push registry.gitlab.com/goresy-dev-team/goresy-ui:$internal_build_image_tag
+      docker push registry.gitlab.com/goresy-dev-team/goresy-ui:$CI_COMMIT_REF_NAME-$CI_COMMIT_SHORT_SHA
+
+deploy-to-dev:
+  stage: deploy-to-dev
+  # todo: update base image to contain git cli
+  image: kroniak/ssh-client
+  only:
+    - dev
+  script:
+    - ./ci/deploy-to-dev.sh
+
+deploy-to-prod:
+  stage: deploy-to-prod
+  image: kroniak/ssh-client
+  only:
+    - prod
+  script:
+    - ./ci/deploy-to-prod.sh

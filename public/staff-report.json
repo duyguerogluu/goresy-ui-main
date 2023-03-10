@@ -1,0 +1,39 @@
+
+{
+    "data": [
+        {
+            "id": 1000,
+            "employee": "Haktan",
+            "serviceTurnover": "50 TL",
+            "serviceCommission": "50 TL",
+            "productSaleTurnover": "50 TL",
+            "productSaleCommission": "200 TL",
+            "packageSaleTurnover": "200 TL",
+            "packageSaleCommission": "200 TL",
+            "totalTurnover": "200 TL",
+            "totalCommission": "200 TL",
+            "fixedIncome": "200 TL",
+            "totalEarning": "200 TL",
+            "paidAmount": "200 TL",
+            "remainingPayment": "200 TL"
+        },
+        {
+            "id": 1001,
+            "employee": "Deniz",
+            "serviceTurnover": "150 TL",
+            "serviceCommission": "150 TL",
+            "productSaleTurnover": "150 TL",
+            "productSaleCommission": "200 TL",
+            "packageSaleTurnover": "200 TL",
+            "packageSaleCommission": "200 TL",
+            "totalTurnover": "200 TL",
+            "totalCommission": "200 TL",
+            "fixedIncome": "200 TL",
+            "totalEarning": "200 TL",
+            "paidAmount": "200 TL",
+            "remainingPayment": "200 TL"
+        }
+    
+    ]
+}
+     
